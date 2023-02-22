@@ -1,0 +1,64 @@
+
+.image {
+    position: relative;
+}
+
+.image img {
+    width: 350px;
+    height: 450px;
+}
+
+.image > div {
+    position: absolute;
+    background-color: #0006;
+    top: 0;
+    left: 0;
+    inset: 0px;
+    opacity: 0;
+    transition: .5s;
+    padding: 20px;
+}
+
+.image > div:hover {
+    opacity: 1;
+}
+
+.image > div h1 {
+    border: none;
+    text-align: start;
+    color: white;
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+}
+
+.image > div h1 span {
+    background-color: #000c;
+    display: block;
+    width: max-content;
+    padding: .3rem;
+    font-size: 1.1rem;
+    color: #f5394c;
+    margin: 5px 0px;
+}
+
+.image > div .links a {
+    color: white;
+    font-size: .9rem;
+    padding: .3rem;
+    transition: .5s;
+}
+
+.image > div .links a:hover {
+    background: #000c;
+}
+
+.image > div .links {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+

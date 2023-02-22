@@ -1,0 +1,23 @@
+
+.galery {
+    margin: 100px 0px;
+}
+
+.galery h1 {
+    text-transform: capitalize;
+    color: #333;
+    font-size: clamp(1.5rem, 2vw + 1rem, 2rem);
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #333;
+}
+
+.galery > div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 350px);
+    grid-auto-rows: 450px;
+    justify-content: center;
+    gap: 30px;
+}

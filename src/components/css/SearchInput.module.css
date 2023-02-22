@@ -1,0 +1,36 @@
+
+.search_input {
+    margin: 0 auto;
+    width: max-content;
+    position: relative;
+    color: #f46472;
+}
+
+
+.search_input input {
+    font-size: 1.3em;
+    outline: none;
+    color: #333;
+    border: 2px solid #f46472;
+    border-radius: 5px;
+    padding: .6rem 1rem;
+    width: 80vw;
+    max-width: 500px;
+}
+
+.search_input input:focus {
+    box-shadow: 0px 0px 8px #edad9e;
+}
+
+.search_input span {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.search_input span:hover {
+    color: #f7192f;
+}
